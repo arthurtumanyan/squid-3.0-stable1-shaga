@@ -1,0 +1,75 @@
+Trie.o Trie.o: Trie.cc ../include/Trie.h ../config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  ../include/Trie.cci ../include/Trie.h ../include/TrieNode.h \
+  /usr/include/c++/3.4/utility /usr/include/c++/3.4/bits/c++config.h \
+  /usr/include/c++/3.4/bits/os_defines.h \
+  /usr/include/c++/3.4/bits/stl_relops.h \
+  /usr/include/c++/3.4/bits/stl_pair.h ../include/TrieNode.cci \
+  ../include/TrieCharTransform.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/sys/_null.h \
+  ../include/TrieNode.h ../include/TrieCharTransform.h
+
+../include/Trie.h:
+
+../config.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/sys/_pthreadtypes.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/_sigset.h:
+
+/usr/include/sys/_timeval.h:
+
+/usr/include/sys/timespec.h:
+
+../include/Trie.cci:
+
+../include/Trie.h:
+
+../include/TrieNode.h:
+
+/usr/include/c++/3.4/utility:
+
+/usr/include/c++/3.4/bits/c++config.h:
+
+/usr/include/c++/3.4/bits/os_defines.h:
+
+/usr/include/c++/3.4/bits/stl_relops.h:
+
+/usr/include/c++/3.4/bits/stl_pair.h:
+
+../include/TrieNode.cci:
+
+../include/TrieCharTransform.h:
+
+/usr/include/ctype.h:
+
+/usr/include/_ctype.h:
+
+/usr/include/runetype.h:
+
+/usr/include/unistd.h:
+
+/usr/include/sys/unistd.h:
+
+/usr/include/sys/_null.h:
+
+../include/TrieNode.h:
+
+../include/TrieCharTransform.h:

@@ -1,0 +1,80 @@
+rfc1123.o rfc1123.o: rfc1123.c ../include/config.h ../include/autoconf.h \
+  ../include/version.h /usr/include/osreldate.h ../include/squid_types.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h /usr/include/stddef.h \
+  /usr/include/inttypes.h /usr/include/machine/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/stdio.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/time.h /usr/include/sys/time.h ../include/assert.h \
+  ../include/config.h ../include/util.h
+
+../include/config.h:
+
+../include/autoconf.h:
+
+../include/version.h:
+
+/usr/include/osreldate.h:
+
+../include/squid_types.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/sys/_pthreadtypes.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/_sigset.h:
+
+/usr/include/sys/_timeval.h:
+
+/usr/include/sys/timespec.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/sys/_null.h:
+
+/usr/include/stddef.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/machine/_inttypes.h:
+
+/usr/include/sys/stdint.h:
+
+/usr/include/machine/_stdint.h:
+
+/usr/include/stdio.h:
+
+/usr/include/string.h:
+
+/usr/include/strings.h:
+
+/usr/include/ctype.h:
+
+/usr/include/_ctype.h:
+
+/usr/include/runetype.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/time.h:
+
+../include/assert.h:
+
+../include/config.h:
+
+../include/util.h:

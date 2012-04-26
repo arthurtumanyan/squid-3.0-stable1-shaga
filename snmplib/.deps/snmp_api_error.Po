@@ -1,0 +1,16 @@
+snmp_api_error.o snmp_api_error.o: snmp_api_error.c /usr/include/stdio.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  ../include/snmp_api_error.h
+
+/usr/include/stdio.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/sys/_null.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+../include/snmp_api_error.h:

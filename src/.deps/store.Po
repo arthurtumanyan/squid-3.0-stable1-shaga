@@ -1,0 +1,594 @@
+store.o store.o: store.cc squid.h ../include/config.h \
+  ../include/autoconf.h ../include/version.h /usr/include/osreldate.h \
+  ../include/squid_types.h /usr/include/sys/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/stdlib.h \
+  /usr/include/sys/_null.h /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/sys/stdint.h \
+  /usr/include/machine/_stdint.h ../include/assert.h ../include/config.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h /usr/include/stdio.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/errno.h /usr/include/fcntl.h /usr/include/grp.h \
+  /usr/include/memory.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/netdb.h /usr/include/paths.h /usr/include/pwd.h \
+  /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/machine/signal.h /usr/include/machine/trap.h \
+  /usr/include/time.h /usr/include/sys/param.h \
+  /usr/include/sys/syslimits.h /usr/include/machine/param.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/sys/time.h /usr/include/sys/resource.h \
+  /usr/include/sys/socket.h /usr/include/sys/_iovec.h \
+  /usr/include/netinet/in.h /usr/include/netinet6/in6.h \
+  /usr/include/arpa/inet.h /usr/include/sys/stat.h /usr/include/sys/un.h \
+  /usr/include/sys/wait.h /usr/include/sys/syscall.h \
+  /usr/include/getopt.h /usr/include/limits.h /usr/include/dirent.h \
+  /usr/include/sys/dirent.h /usr/include/sys/mount.h \
+  /usr/include/sys/ucred.h /usr/include/sys/queue.h /usr/include/poll.h \
+  /usr/include/stdarg.h /usr/include/syslog.h /usr/include/math.h \
+  /usr/include/regex.h ../include/md5.h ../include/cache_snmp.h \
+  ../include/snmp.h ../include/asn1.h ../include/snmp_error.h \
+  ../include/snmp_session.h ../include/snmp_vars.h ../include/snmp_pdu.h \
+  ../include/snmp_msg.h ../include/snmp_coexist.h \
+  ../include/snmp_api_error.h ../include/snmp_impl.h \
+  ../include/snmp_api.h ../include/snmp-internal.h ../include/parse.h \
+  ../include/snmp_debug.h ../include/hash.h ../include/rfc1035.h \
+  defines.h Debug.h /usr/include/c++/3.4/iostream \
+  /usr/include/c++/3.4/bits/c++config.h \
+  /usr/include/c++/3.4/bits/os_defines.h /usr/include/c++/3.4/ostream \
+  /usr/include/c++/3.4/ios /usr/include/c++/3.4/iosfwd \
+  /usr/include/c++/3.4/bits/c++locale.h /usr/include/c++/3.4/clocale \
+  /usr/include/locale.h /usr/include/c++/3.4/cstring \
+  /usr/include/c++/3.4/cstddef /usr/include/c++/3.4/cstdio \
+  /usr/include/c++/3.4/bits/c++io.h /usr/include/c++/3.4/bits/gthr.h \
+  /usr/include/c++/3.4/bits/gthr-default.h /usr/include/pthread.h \
+  /usr/include/sched.h /usr/include/c++/3.4/cctype \
+  /usr/include/c++/3.4/bits/stringfwd.h \
+  /usr/include/c++/3.4/bits/postypes.h /usr/include/c++/3.4/cwchar \
+  /usr/include/c++/3.4/ctime /usr/include/wchar.h /usr/include/stdint.h \
+  /usr/include/c++/3.4/bits/functexcept.h \
+  /usr/include/c++/3.4/exception_defines.h /usr/include/c++/3.4/exception \
+  /usr/include/c++/3.4/bits/char_traits.h \
+  /usr/include/c++/3.4/bits/stl_algobase.h /usr/include/c++/3.4/climits \
+  /usr/include/c++/3.4/cstdlib /usr/include/c++/3.4/new \
+  /usr/include/c++/3.4/bits/stl_pair.h \
+  /usr/include/c++/3.4/bits/type_traits.h \
+  /usr/include/c++/3.4/bits/stl_iterator_base_types.h \
+  /usr/include/c++/3.4/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/3.4/bits/concept_check.h \
+  /usr/include/c++/3.4/bits/stl_iterator.h \
+  /usr/include/c++/3.4/debug/debug.h /usr/include/c++/3.4/cassert \
+  ../include/assert.h /usr/include/c++/3.4/bits/localefwd.h \
+  /usr/include/c++/3.4/bits/ios_base.h \
+  /usr/include/c++/3.4/bits/atomicity.h \
+  /usr/include/c++/3.4/bits/atomic_word.h \
+  /usr/include/c++/3.4/bits/locale_classes.h /usr/include/c++/3.4/string \
+  /usr/include/c++/3.4/memory /usr/include/c++/3.4/bits/allocator.h \
+  /usr/include/c++/3.4/bits/c++allocator.h \
+  /usr/include/c++/3.4/ext/new_allocator.h \
+  /usr/include/c++/3.4/bits/stl_construct.h \
+  /usr/include/c++/3.4/bits/stl_uninitialized.h \
+  /usr/include/c++/3.4/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/3.4/limits /usr/include/c++/3.4/bits/stl_function.h \
+  /usr/include/c++/3.4/bits/basic_string.h /usr/include/c++/3.4/algorithm \
+  /usr/include/c++/3.4/bits/stl_algo.h \
+  /usr/include/c++/3.4/bits/stl_heap.h \
+  /usr/include/c++/3.4/bits/stl_tempbuf.h \
+  /usr/include/c++/3.4/bits/basic_string.tcc \
+  /usr/include/c++/3.4/streambuf /usr/include/c++/3.4/bits/streambuf.tcc \
+  /usr/include/c++/3.4/bits/basic_ios.h \
+  /usr/include/c++/3.4/bits/streambuf_iterator.h \
+  /usr/include/c++/3.4/bits/locale_facets.h /usr/include/c++/3.4/cwctype \
+  /usr/include/wctype.h /usr/include/c++/3.4/bits/ctype_base.h \
+  /usr/include/c++/3.4/bits/ctype_inline.h \
+  /usr/include/c++/3.4/bits/codecvt.h \
+  /usr/include/c++/3.4/bits/codecvt_specializations.h \
+  /usr/include/c++/3.4/bits/time_members.h \
+  /usr/include/c++/3.4/bits/messages_members.h \
+  /usr/include/c++/3.4/bits/basic_ios.tcc \
+  /usr/include/c++/3.4/bits/ostream.tcc /usr/include/c++/3.4/locale \
+  /usr/include/c++/3.4/bits/locale_facets.tcc \
+  /usr/include/c++/3.4/typeinfo /usr/include/c++/3.4/istream \
+  /usr/include/c++/3.4/bits/istream.tcc /usr/include/c++/3.4/sstream \
+  /usr/include/c++/3.4/bits/sstream.tcc /usr/include/c++/3.4/iomanip \
+  /usr/include/c++/3.4/functional enums.h typedefs.h ../include/Array.h \
+  ../include/fatal.h ../include/util.h ../include/SquidNew.h \
+  ../include/util.h ../include/profiling.h ../include/MemPool.h \
+  ../include/assert.h ../include/memMeter.h ../include/splay.h \
+  ../include/Stack.h ../include/Array.h structs.h ../include/RefCount.h \
+  dlink.h HttpHeader.h HttpHeaderRange.h ../include/Range.h Packer.h \
+  SquidString.h String.cci HttpHeaderMask.h ShagaConfig.h protos.h \
+  HttpRequestMethod.h globals.h event.h AsyncEngine.h \
+  CompletionDispatcher.h Store.h StoreIOBuffer.h MemBuf.h cbdata.h \
+  MemBuf.cci CommRead.h comm.h ../include/List.h ./cbdata.h \
+  RemovalPolicy.h Store.cci MemObject.h StoreIOState.h stmem.h \
+  ../include/splay.h CacheManager.h StoreClient.h HttpReply.h HttpMsg.h \
+  HttpVersion.h BodyPipe.h AsyncCall.h HttpStatusLine.h HttpRequest.h \
+  client_side.h HierarchyLogEntry.h PingData.h mem_node.h StoreMeta.h \
+  SwapDir.h ../include/Stack.h SquidTime.h
+
+squid.h:
+
+../include/config.h:
+
+../include/autoconf.h:
+
+../include/version.h:
+
+/usr/include/osreldate.h:
+
+../include/squid_types.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/sys/_pthreadtypes.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/_sigset.h:
+
+/usr/include/sys/_timeval.h:
+
+/usr/include/sys/timespec.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/sys/_null.h:
+
+/usr/include/stddef.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/machine/_inttypes.h:
+
+/usr/include/sys/stdint.h:
+
+/usr/include/machine/_stdint.h:
+
+../include/assert.h:
+
+../include/config.h:
+
+/usr/include/unistd.h:
+
+/usr/include/sys/unistd.h:
+
+/usr/include/stdio.h:
+
+/usr/include/ctype.h:
+
+/usr/include/_ctype.h:
+
+/usr/include/runetype.h:
+
+/usr/include/errno.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/grp.h:
+
+/usr/include/memory.h:
+
+/usr/include/string.h:
+
+/usr/include/strings.h:
+
+/usr/include/netdb.h:
+
+/usr/include/paths.h:
+
+/usr/include/pwd.h:
+
+/usr/include/signal.h:
+
+/usr/include/sys/signal.h:
+
+/usr/include/machine/signal.h:
+
+/usr/include/machine/trap.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/param.h:
+
+/usr/include/sys/syslimits.h:
+
+/usr/include/machine/param.h:
+
+/usr/include/sys/limits.h:
+
+/usr/include/machine/_limits.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/sys/resource.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/sys/_iovec.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/netinet6/in6.h:
+
+/usr/include/arpa/inet.h:
+
+/usr/include/sys/stat.h:
+
+/usr/include/sys/un.h:
+
+/usr/include/sys/wait.h:
+
+/usr/include/sys/syscall.h:
+
+/usr/include/getopt.h:
+
+/usr/include/limits.h:
+
+/usr/include/dirent.h:
+
+/usr/include/sys/dirent.h:
+
+/usr/include/sys/mount.h:
+
+/usr/include/sys/ucred.h:
+
+/usr/include/sys/queue.h:
+
+/usr/include/poll.h:
+
+/usr/include/stdarg.h:
+
+/usr/include/syslog.h:
+
+/usr/include/math.h:
+
+/usr/include/regex.h:
+
+../include/md5.h:
+
+../include/cache_snmp.h:
+
+../include/snmp.h:
+
+../include/asn1.h:
+
+../include/snmp_error.h:
+
+../include/snmp_session.h:
+
+../include/snmp_vars.h:
+
+../include/snmp_pdu.h:
+
+../include/snmp_msg.h:
+
+../include/snmp_coexist.h:
+
+../include/snmp_api_error.h:
+
+../include/snmp_impl.h:
+
+../include/snmp_api.h:
+
+../include/snmp-internal.h:
+
+../include/parse.h:
+
+../include/snmp_debug.h:
+
+../include/hash.h:
+
+../include/rfc1035.h:
+
+defines.h:
+
+Debug.h:
+
+/usr/include/c++/3.4/iostream:
+
+/usr/include/c++/3.4/bits/c++config.h:
+
+/usr/include/c++/3.4/bits/os_defines.h:
+
+/usr/include/c++/3.4/ostream:
+
+/usr/include/c++/3.4/ios:
+
+/usr/include/c++/3.4/iosfwd:
+
+/usr/include/c++/3.4/bits/c++locale.h:
+
+/usr/include/c++/3.4/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/c++/3.4/cstring:
+
+/usr/include/c++/3.4/cstddef:
+
+/usr/include/c++/3.4/cstdio:
+
+/usr/include/c++/3.4/bits/c++io.h:
+
+/usr/include/c++/3.4/bits/gthr.h:
+
+/usr/include/c++/3.4/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/c++/3.4/cctype:
+
+/usr/include/c++/3.4/bits/stringfwd.h:
+
+/usr/include/c++/3.4/bits/postypes.h:
+
+/usr/include/c++/3.4/cwchar:
+
+/usr/include/c++/3.4/ctime:
+
+/usr/include/wchar.h:
+
+/usr/include/stdint.h:
+
+/usr/include/c++/3.4/bits/functexcept.h:
+
+/usr/include/c++/3.4/exception_defines.h:
+
+/usr/include/c++/3.4/exception:
+
+/usr/include/c++/3.4/bits/char_traits.h:
+
+/usr/include/c++/3.4/bits/stl_algobase.h:
+
+/usr/include/c++/3.4/climits:
+
+/usr/include/c++/3.4/cstdlib:
+
+/usr/include/c++/3.4/new:
+
+/usr/include/c++/3.4/bits/stl_pair.h:
+
+/usr/include/c++/3.4/bits/type_traits.h:
+
+/usr/include/c++/3.4/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/3.4/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/3.4/bits/concept_check.h:
+
+/usr/include/c++/3.4/bits/stl_iterator.h:
+
+/usr/include/c++/3.4/debug/debug.h:
+
+/usr/include/c++/3.4/cassert:
+
+../include/assert.h:
+
+/usr/include/c++/3.4/bits/localefwd.h:
+
+/usr/include/c++/3.4/bits/ios_base.h:
+
+/usr/include/c++/3.4/bits/atomicity.h:
+
+/usr/include/c++/3.4/bits/atomic_word.h:
+
+/usr/include/c++/3.4/bits/locale_classes.h:
+
+/usr/include/c++/3.4/string:
+
+/usr/include/c++/3.4/memory:
+
+/usr/include/c++/3.4/bits/allocator.h:
+
+/usr/include/c++/3.4/bits/c++allocator.h:
+
+/usr/include/c++/3.4/ext/new_allocator.h:
+
+/usr/include/c++/3.4/bits/stl_construct.h:
+
+/usr/include/c++/3.4/bits/stl_uninitialized.h:
+
+/usr/include/c++/3.4/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/3.4/limits:
+
+/usr/include/c++/3.4/bits/stl_function.h:
+
+/usr/include/c++/3.4/bits/basic_string.h:
+
+/usr/include/c++/3.4/algorithm:
+
+/usr/include/c++/3.4/bits/stl_algo.h:
+
+/usr/include/c++/3.4/bits/stl_heap.h:
+
+/usr/include/c++/3.4/bits/stl_tempbuf.h:
+
+/usr/include/c++/3.4/bits/basic_string.tcc:
+
+/usr/include/c++/3.4/streambuf:
+
+/usr/include/c++/3.4/bits/streambuf.tcc:
+
+/usr/include/c++/3.4/bits/basic_ios.h:
+
+/usr/include/c++/3.4/bits/streambuf_iterator.h:
+
+/usr/include/c++/3.4/bits/locale_facets.h:
+
+/usr/include/c++/3.4/cwctype:
+
+/usr/include/wctype.h:
+
+/usr/include/c++/3.4/bits/ctype_base.h:
+
+/usr/include/c++/3.4/bits/ctype_inline.h:
+
+/usr/include/c++/3.4/bits/codecvt.h:
+
+/usr/include/c++/3.4/bits/codecvt_specializations.h:
+
+/usr/include/c++/3.4/bits/time_members.h:
+
+/usr/include/c++/3.4/bits/messages_members.h:
+
+/usr/include/c++/3.4/bits/basic_ios.tcc:
+
+/usr/include/c++/3.4/bits/ostream.tcc:
+
+/usr/include/c++/3.4/locale:
+
+/usr/include/c++/3.4/bits/locale_facets.tcc:
+
+/usr/include/c++/3.4/typeinfo:
+
+/usr/include/c++/3.4/istream:
+
+/usr/include/c++/3.4/bits/istream.tcc:
+
+/usr/include/c++/3.4/sstream:
+
+/usr/include/c++/3.4/bits/sstream.tcc:
+
+/usr/include/c++/3.4/iomanip:
+
+/usr/include/c++/3.4/functional:
+
+enums.h:
+
+typedefs.h:
+
+../include/Array.h:
+
+../include/fatal.h:
+
+../include/util.h:
+
+../include/SquidNew.h:
+
+../include/util.h:
+
+../include/profiling.h:
+
+../include/MemPool.h:
+
+../include/assert.h:
+
+../include/memMeter.h:
+
+../include/splay.h:
+
+../include/Stack.h:
+
+../include/Array.h:
+
+structs.h:
+
+../include/RefCount.h:
+
+dlink.h:
+
+HttpHeader.h:
+
+HttpHeaderRange.h:
+
+../include/Range.h:
+
+Packer.h:
+
+SquidString.h:
+
+String.cci:
+
+HttpHeaderMask.h:
+
+ShagaConfig.h:
+
+protos.h:
+
+HttpRequestMethod.h:
+
+globals.h:
+
+event.h:
+
+AsyncEngine.h:
+
+CompletionDispatcher.h:
+
+Store.h:
+
+StoreIOBuffer.h:
+
+MemBuf.h:
+
+cbdata.h:
+
+MemBuf.cci:
+
+CommRead.h:
+
+comm.h:
+
+../include/List.h:
+
+./cbdata.h:
+
+RemovalPolicy.h:
+
+Store.cci:
+
+MemObject.h:
+
+StoreIOState.h:
+
+stmem.h:
+
+../include/splay.h:
+
+CacheManager.h:
+
+StoreClient.h:
+
+HttpReply.h:
+
+HttpMsg.h:
+
+HttpVersion.h:
+
+BodyPipe.h:
+
+AsyncCall.h:
+
+HttpStatusLine.h:
+
+HttpRequest.h:
+
+client_side.h:
+
+HierarchyLogEntry.h:
+
+PingData.h:
+
+mem_node.h:
+
+StoreMeta.h:
+
+SwapDir.h:
+
+../include/Stack.h:
+
+SquidTime.h:

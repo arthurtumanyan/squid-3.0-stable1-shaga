@@ -1,0 +1,147 @@
+coexistance.o coexistance.o: coexistance.c ../include/config.h \
+  ../include/autoconf.h ../include/version.h /usr/include/osreldate.h \
+  ../include/squid_types.h /usr/include/sys/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/stdlib.h \
+  /usr/include/sys/_null.h /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/sys/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/stdio.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h /usr/include/memory.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/sys/socket.h \
+  /usr/include/sys/_iovec.h /usr/include/machine/param.h \
+  /usr/include/netinet/in.h /usr/include/netinet6/in6.h \
+  /usr/include/arpa/inet.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/netdb.h ../include/snmp.h ../include/asn1.h \
+  ../include/snmp_error.h ../include/snmp_session.h \
+  ../include/snmp_vars.h ../include/snmp_pdu.h ../include/snmp_msg.h \
+  ../include/snmp_coexist.h ../include/snmp_api_error.h \
+  ../include/snmp_impl.h ../include/snmp_api.h ../include/config.h \
+  ../include/snmp-internal.h ../include/parse.h ../include/snmp_debug.h \
+  ../include/asn1.h ../include/snmp_vars.h ../include/snmp_pdu.h \
+  ../include/snmp_error.h ../include/snmp_api_error.h ../include/util.h
+
+../include/config.h:
+
+../include/autoconf.h:
+
+../include/version.h:
+
+/usr/include/osreldate.h:
+
+../include/squid_types.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/sys/_pthreadtypes.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/_sigset.h:
+
+/usr/include/sys/_timeval.h:
+
+/usr/include/sys/timespec.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/sys/_null.h:
+
+/usr/include/stddef.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/machine/_inttypes.h:
+
+/usr/include/sys/stdint.h:
+
+/usr/include/machine/_stdint.h:
+
+/usr/include/stdio.h:
+
+/usr/include/unistd.h:
+
+/usr/include/sys/unistd.h:
+
+/usr/include/ctype.h:
+
+/usr/include/_ctype.h:
+
+/usr/include/runetype.h:
+
+/usr/include/memory.h:
+
+/usr/include/string.h:
+
+/usr/include/strings.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/sys/_iovec.h:
+
+/usr/include/machine/param.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/netinet6/in6.h:
+
+/usr/include/arpa/inet.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/time.h:
+
+/usr/include/netdb.h:
+
+../include/snmp.h:
+
+../include/asn1.h:
+
+../include/snmp_error.h:
+
+../include/snmp_session.h:
+
+../include/snmp_vars.h:
+
+../include/snmp_pdu.h:
+
+../include/snmp_msg.h:
+
+../include/snmp_coexist.h:
+
+../include/snmp_api_error.h:
+
+../include/snmp_impl.h:
+
+../include/snmp_api.h:
+
+../include/config.h:
+
+../include/snmp-internal.h:
+
+../include/parse.h:
+
+../include/snmp_debug.h:
+
+../include/asn1.h:
+
+../include/snmp_vars.h:
+
+../include/snmp_pdu.h:
+
+../include/snmp_error.h:
+
+../include/snmp_api_error.h:
+
+../include/util.h:
